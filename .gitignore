@@ -1,0 +1,11 @@
+# Terraform state
+**/terraform.tfstate*
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Ansible artifacts
+inventory/*.ini
+*.retry
+
+# OS junk
+.DS_Store
